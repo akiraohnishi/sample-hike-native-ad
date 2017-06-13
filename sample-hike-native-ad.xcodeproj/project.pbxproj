@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2777F83153D24018EBEA8025 /* Pods_sample_hike_native_ad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169284586B91B338EB79E0AC /* Pods_sample_hike_native_ad.framework */; };
+		554AE9791B0B7EDA74BDF22A /* Pods_sample_hike_native_adUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB040A9EF5FC994E2B781EEE /* Pods_sample_hike_native_adUITests.framework */; };
+		CA86A4EB829CA6612C4DD683 /* Pods_sample_hike_native_adTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E4EB8C7F6EC65EBB348CBE /* Pods_sample_hike_native_adTests.framework */; };
 		E94382C31EEFFDE200606A99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94382C21EEFFDE200606A99 /* AppDelegate.swift */; };
 		E94382C51EEFFDE200606A99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94382C41EEFFDE200606A99 /* ViewController.swift */; };
 		E94382C81EEFFDE200606A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94382C61EEFFDE200606A99 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06057D82803F6631F0B2A45E /* Pods-sample-hike-native-adUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-hike-native-adUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-hike-native-adUITests/Pods-sample-hike-native-adUITests.release.xcconfig"; sourceTree = "<group>"; };
+		169284586B91B338EB79E0AC /* Pods_sample_hike_native_ad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_hike_native_ad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3416B5F2FE6529465DDBAC91 /* Pods-sample-hike-native-ad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-hike-native-ad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-hike-native-ad/Pods-sample-hike-native-ad.debug.xcconfig"; sourceTree = "<group>"; };
+		586400478D9471C78890C4A1 /* Pods-sample-hike-native-adUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-hike-native-adUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-hike-native-adUITests/Pods-sample-hike-native-adUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E5BA2D32E76731442BDE074 /* Pods-sample-hike-native-ad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-hike-native-ad.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-hike-native-ad/Pods-sample-hike-native-ad.release.xcconfig"; sourceTree = "<group>"; };
+		7F359F033ED9A5EC87C1ACFD /* Pods-sample-hike-native-adTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-hike-native-adTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-hike-native-adTests/Pods-sample-hike-native-adTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEFDC7A605863D7DBF90F604 /* Pods-sample-hike-native-adTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-hike-native-adTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-hike-native-adTests/Pods-sample-hike-native-adTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6E4EB8C7F6EC65EBB348CBE /* Pods_sample_hike_native_adTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_hike_native_adTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94382BF1EEFFDE200606A99 /* sample-hike-native-ad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-hike-native-ad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94382C21EEFFDE200606A99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E94382C41EEFFDE200606A99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,8 @@
 		E94382DE1EEFFDE200606A99 /* sample-hike-native-adUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-hike-native-adUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94382E21EEFFDE200606A99 /* sample_hike_native_adUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_hike_native_adUITests.swift; sourceTree = "<group>"; };
 		E94382E41EEFFDE200606A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94382F01EEFFE9900606A99 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "../Bridging-Header.h"; sourceTree = "<group>"; };
+		FB040A9EF5FC994E2B781EEE /* Pods_sample_hike_native_adUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_hike_native_adUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2777F83153D24018EBEA8025 /* Pods_sample_hike_native_ad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA86A4EB829CA6612C4DD683 /* Pods_sample_hike_native_adTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554AE9791B0B7EDA74BDF22A /* Pods_sample_hike_native_adUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E841E5B63A2D284C392CC90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				169284586B91B338EB79E0AC /* Pods_sample_hike_native_ad.framework */,
+				D6E4EB8C7F6EC65EBB348CBE /* Pods_sample_hike_native_adTests.framework */,
+				FB040A9EF5FC994E2B781EEE /* Pods_sample_hike_native_adUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9860126A2CE4B284796633 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3416B5F2FE6529465DDBAC91 /* Pods-sample-hike-native-ad.debug.xcconfig */,
+				6E5BA2D32E76731442BDE074 /* Pods-sample-hike-native-ad.release.xcconfig */,
+				7F359F033ED9A5EC87C1ACFD /* Pods-sample-hike-native-adTests.debug.xcconfig */,
+				BEFDC7A605863D7DBF90F604 /* Pods-sample-hike-native-adTests.release.xcconfig */,
+				586400478D9471C78890C4A1 /* Pods-sample-hike-native-adUITests.debug.xcconfig */,
+				06057D82803F6631F0B2A45E /* Pods-sample-hike-native-adUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E94382B61EEFFDE200606A99 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				E94382D61EEFFDE200606A99 /* sample-hike-native-adTests */,
 				E94382E11EEFFDE200606A99 /* sample-hike-native-adUITests */,
 				E94382C01EEFFDE200606A99 /* Products */,
+				DD9860126A2CE4B284796633 /* Pods */,
+				3E841E5B63A2D284C392CC90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +144,7 @@
 				E94382C91EEFFDE200606A99 /* Assets.xcassets */,
 				E94382CB1EEFFDE200606A99 /* LaunchScreen.storyboard */,
 				E94382CE1EEFFDE200606A99 /* Info.plist */,
+				E94382F01EEFFE9900606A99 /* Bridging-Header.h */,
 			);
 			path = "sample-hike-native-ad";
 			sourceTree = "<group>";
@@ -132,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E94382E71EEFFDE200606A99 /* Build configuration list for PBXNativeTarget "sample-hike-native-ad" */;
 			buildPhases = (
+				C54F4DAB49E3C22A40F95A3F /* [CP] Check Pods Manifest.lock */,
 				E94382BB1EEFFDE200606A99 /* Sources */,
 				E94382BC1EEFFDE200606A99 /* Frameworks */,
 				E94382BD1EEFFDE200606A99 /* Resources */,
+				E40F561D0D4E9C550F2C12C9 /* [CP] Embed Pods Frameworks */,
+				AD441AF5B76195AFEA4A2275 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E94382EA1EEFFDE200606A99 /* Build configuration list for PBXNativeTarget "sample-hike-native-adTests" */;
 			buildPhases = (
+				685FF8A5B2FE192420A3A2C7 /* [CP] Check Pods Manifest.lock */,
 				E94382CF1EEFFDE200606A99 /* Sources */,
 				E94382D01EEFFDE200606A99 /* Frameworks */,
 				E94382D11EEFFDE200606A99 /* Resources */,
+				1D927721782EF9FDE9A7CB1F /* [CP] Embed Pods Frameworks */,
+				86278E8BD021F13987FC0FC4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E94382ED1EEFFDE200606A99 /* Build configuration list for PBXNativeTarget "sample-hike-native-adUITests" */;
 			buildPhases = (
+				A25CC63B9B659F041317FD03 /* [CP] Check Pods Manifest.lock */,
 				E94382DA1EEFFDE200606A99 /* Sources */,
 				E94382DB1EEFFDE200606A99 /* Frameworks */,
 				E94382DC1EEFFDE200606A99 /* Resources */,
+				C174A8C3F6604813F7E10079 /* [CP] Embed Pods Frameworks */,
+				6269D34CB7C726CD522E2A63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +307,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D927721782EF9FDE9A7CB1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-hike-native-adTests/Pods-sample-hike-native-adTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6269D34CB7C726CD522E2A63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-hike-native-adUITests/Pods-sample-hike-native-adUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		685FF8A5B2FE192420A3A2C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86278E8BD021F13987FC0FC4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-hike-native-adTests/Pods-sample-hike-native-adTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A25CC63B9B659F041317FD03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD441AF5B76195AFEA4A2275 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-hike-native-ad/Pods-sample-hike-native-ad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C174A8C3F6604813F7E10079 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-hike-native-adUITests/Pods-sample-hike-native-adUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54F4DAB49E3C22A40F95A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E40F561D0D4E9C550F2C12C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-hike-native-ad/Pods-sample-hike-native-ad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E94382BB1EEFFDE200606A99 /* Sources */ = {
@@ -415,6 +604,7 @@
 		};
 		E94382E81EEFFDE200606A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3416B5F2FE6529465DDBAC91 /* Pods-sample-hike-native-ad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
@@ -422,12 +612,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.oh24.sample-hike-native-ad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E94382E91EEFFDE200606A99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E5BA2D32E76731442BDE074 /* Pods-sample-hike-native-ad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
@@ -435,12 +627,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "net.oh24.sample-hike-native-ad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PRODUCT)/Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		E94382EB1EEFFDE200606A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F359F033ED9A5EC87C1ACFD /* Pods-sample-hike-native-adTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +650,7 @@
 		};
 		E94382EC1EEFFDE200606A99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFDC7A605863D7DBF90F604 /* Pods-sample-hike-native-adTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +666,7 @@
 		};
 		E94382EE1EEFFDE200606A99 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 586400478D9471C78890C4A1 /* Pods-sample-hike-native-adUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
@@ -485,6 +681,7 @@
 		};
 		E94382EF1EEFFDE200606A99 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06057D82803F6631F0B2A45E /* Pods-sample-hike-native-adUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L9CVD8GGL4;
@@ -516,6 +713,7 @@
 				E94382E91EEFFDE200606A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94382EA1EEFFDE200606A99 /* Build configuration list for PBXNativeTarget "sample-hike-native-adTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +722,7 @@
 				E94382EC1EEFFDE200606A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94382ED1EEFFDE200606A99 /* Build configuration list for PBXNativeTarget "sample-hike-native-adUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +731,7 @@
 				E94382EF1EEFFDE200606A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

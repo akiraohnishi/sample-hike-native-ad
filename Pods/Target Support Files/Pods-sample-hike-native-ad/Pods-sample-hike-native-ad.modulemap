@@ -1,0 +1,6 @@
+framework module Pods_sample_hike_native_ad {
+  umbrella header "Pods-sample-hike-native-ad-umbrella.h"
+
+  export *
+  module * { export * }
+}

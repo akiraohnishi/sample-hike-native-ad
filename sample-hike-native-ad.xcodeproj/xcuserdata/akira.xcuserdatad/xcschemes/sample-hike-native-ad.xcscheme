@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E94382BE1EEFFDE200606A99"
+               BuildableName = "sample-hike-native-ad.app"
+               BlueprintName = "sample-hike-native-ad"
+               ReferencedContainer = "container:sample-hike-native-ad.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E94382D21EEFFDE200606A99"
+               BuildableName = "sample-hike-native-adTests.xctest"
+               BlueprintName = "sample-hike-native-adTests"
+               ReferencedContainer = "container:sample-hike-native-ad.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E94382DD1EEFFDE200606A99"
+               BuildableName = "sample-hike-native-adUITests.xctest"
+               BlueprintName = "sample-hike-native-adUITests"
+               ReferencedContainer = "container:sample-hike-native-ad.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E94382BE1EEFFDE200606A99"
+            BuildableName = "sample-hike-native-ad.app"
+            BlueprintName = "sample-hike-native-ad"
+            ReferencedContainer = "container:sample-hike-native-ad.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E94382BE1EEFFDE200606A99"
+            BuildableName = "sample-hike-native-ad.app"
+            BlueprintName = "sample-hike-native-ad"
+            ReferencedContainer = "container:sample-hike-native-ad.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E94382BE1EEFFDE200606A99"
+            BuildableName = "sample-hike-native-ad.app"
+            BlueprintName = "sample-hike-native-ad"
+            ReferencedContainer = "container:sample-hike-native-ad.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
